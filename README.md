@@ -9,13 +9,16 @@ $ npm install -g node-pagination
 
 使用：  
 <pre>
+
+var pagination = require(&quot;node-pagination&quot;);
+
 total      : 总数
 page       : 当前页
 pagesize   : 每页包含的内容
 offset     : 偏移量（例如1 2 3 4 5 6，点击6时，产生4 5 6 7 8 9，而非 7 8 9 10 11 12）
 length     : 例如 上一页 2 3 4 5 6 下一页，则步长为5
 
-var pv = pagination.build( total, page, pagesize, offset, length );
+pv = pagination.build( total, page, pagesize, offset, length );
 </pre>
 
 计算后结果：  
@@ -46,7 +49,7 @@ pv.offset     //偏移量
 </pre>
 
 其他版本的分页组件：  
-[javascript版](https://github.com/Kenshin/js-pagination)
+JavaScript版：[https://github.com/Kenshin/js-pagination](https://github.com/Kenshin/js-pagination)
 
 ## 更新日志：
 version 1.0.0 [2012-05-05]

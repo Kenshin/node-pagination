@@ -2,7 +2,10 @@
 基于Node.js版的JavaScript分页组件
 
 ### 使用方法：  
-
+安装：  
+<pre>
+$ npm install -g node-pagination
+</pre>
 
 使用：  
 <pre>
@@ -37,8 +40,16 @@ pv.back       //后退到第几页
 pv.offset     //偏移量
 </pre>
 
+测试：  
+<pre>
+..\node_modules\node-pagination\test\ node test.js
+</pre>
+
+其他版本的分页组件：  
+[javascript版](https://github.com/Kenshin/js-pagination)
+
 ## 更新日志：
-version 1.0 [2012-05-05]
+version 1.0.0 [2012-05-05]
 * 基于Node.js
 * 支持复杂分页
 

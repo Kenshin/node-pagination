@@ -45,7 +45,7 @@ pv.offset     //偏移量
 
 测试：  
 <pre>
-..\node_modules\node-pagination\test\ node test.js
+..\node_modules\node-pagination\test\node test.js
 </pre>
 
 其他版本的分页组件：  

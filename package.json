@@ -1,7 +1,7 @@
 {
   "name": "node-pagination",
   "description": "pagination for Node.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Kenshin <kenshin@ksria.com> (http://www.k-zone.cn/zblog)",
   "keywords": ["pagination", "paging", "page", "nextpage"],
   "repository": "git@github.com:Kenshin/node-pagination.git",

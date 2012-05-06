@@ -34,7 +34,7 @@ pv.isprevious //是否显示前一页
 pv.isnext     //是否显示后一页
 pv.begin      //开始
 pv.end        //结束
-pv.length     //原始的步长（即传入的参数，也是begin -> end时的步长）
+pv.length     //原始的步长（即传入的参数，也是begin -&gt; end时的步长）
 pv.step       //步长（真实的步长）
 pv.isforward  //是否可以前进，指&quot;&gt;&gt;&quot;
 pv.isback     //是否可以后退，指&quot;&lt;&lt;&quot;
@@ -45,7 +45,7 @@ pv.offset     //偏移量
 
 测试：  
 <pre>
-..\node_modules\node-pagination\test\node test.js
+..\node_modules\node-pagination\test\ node test.js
 </pre>
 
 其他版本的分页组件：  

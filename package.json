@@ -1,6 +1,6 @@
 {
   "name": "node-pagination",
-  "description": "pagination for node.js",
+  "description": "pagination for Node.js",
   "version": "1.0.0",
   "author": "Kenshin <kenshin@ksria.com> (http://www.k-zone.cn/zblog)",
   "keywords": ["pagination", "paging", "page", "nextpage"],
